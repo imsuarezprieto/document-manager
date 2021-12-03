@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F03BC3BD-1B4F-474E-BCD1-E0D5A83E0EAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3E63AF73-B6CD-420D-8C00-9F026FAA1A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManager.Domain", "DocumentManager.Domain\DocumentManager.Domain.csproj", "{4FF5DFC0-BB71-4ED5-8B91-F6836CADFCEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManager.Infrastructure", "DocumentManager.Infrastucture\DocumentManager.Infrastructure.csproj", "{53960373-B8BC-4E30-81D6-30CBE7DCF7B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManager.Tests.Integration", "DocumentManager.Tests.Integration\DocumentManager.Tests.Integration.csproj", "{5A65F10D-FA81-464D-A3BD-9A23D3000BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManager.Tests.Functional", "DocumentManager.Tests.Functional\DocumentManager.Tests.Functional.csproj", "{07604DF0-63DE-4D1F-B2EF-E5FE2B8A687E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FF5DFC0-BB71-4ED5-8B91-F6836CADFCEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF5DFC0-BB71-4ED5-8B91-F6836CADFCEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF5DFC0-BB71-4ED5-8B91-F6836CADFCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF5DFC0-BB71-4ED5-8B91-F6836CADFCEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53960373-B8BC-4E30-81D6-30CBE7DCF7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53960373-B8BC-4E30-81D6-30CBE7DCF7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53960373-B8BC-4E30-81D6-30CBE7DCF7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53960373-B8BC-4E30-81D6-30CBE7DCF7B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A65F10D-FA81-464D-A3BD-9A23D3000BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A65F10D-FA81-464D-A3BD-9A23D3000BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A65F10D-FA81-464D-A3BD-9A23D3000BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A65F10D-FA81-464D-A3BD-9A23D3000BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07604DF0-63DE-4D1F-B2EF-E5FE2B8A687E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07604DF0-63DE-4D1F-B2EF-E5FE2B8A687E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07604DF0-63DE-4D1F-B2EF-E5FE2B8A687E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07604DF0-63DE-4D1F-B2EF-E5FE2B8A687E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4FF5DFC0-BB71-4ED5-8B91-F6836CADFCEF} = {F03BC3BD-1B4F-474E-BCD1-E0D5A83E0EAC}
+		{53960373-B8BC-4E30-81D6-30CBE7DCF7B4} = {F03BC3BD-1B4F-474E-BCD1-E0D5A83E0EAC}
+		{5A65F10D-FA81-464D-A3BD-9A23D3000BE4} = {3E63AF73-B6CD-420D-8C00-9F026FAA1A59}
+		{07604DF0-63DE-4D1F-B2EF-E5FE2B8A687E} = {3E63AF73-B6CD-420D-8C00-9F026FAA1A59}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35F701EC-FFF0-4D1D-B24A-145C09BFD5B1}
+	EndGlobalSection
+EndGlobal
